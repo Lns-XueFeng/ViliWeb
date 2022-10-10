@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: None;
+}
+
+html body{
+    background: lightyellow;
+}
+
+.top{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.fenlan div{
+    display: inline-block;
+    width: 150px;
+    height: auto;
+    background: lightpink;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    border: solid 5px black;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.medium{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.cartoon{
+    display: block;
+    margin: 10px;
+}
+
+.movies{
+    display: None;
+}
+
+.record{
+    display: None;
+}
+
+li{
+    display: inline-block;
+    width: 150px;
+    height: auto;
+    background: lightpink;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    border: solid 5px black;
+    box-sizing: border-box;
+    position: relative;
+}
