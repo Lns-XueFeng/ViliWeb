@@ -9,6 +9,24 @@ li{
 
 html body{
     background: lightyellow;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.top-title{
+    width: 100%;
+    height: 80px;
+    background: lightpink;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border: solid 5px black;
+    cursor: pointer;
+}
+
+.top-title h1{
+    line-height: 80px;
+    color: mediumpurple;
 }
 
 .top{
@@ -19,7 +37,7 @@ html body{
 
 .fenlan div{
     display: inline-block;
-    width: 150px;
+    width: 15%;
     height: auto;
     background: lightpink;
     margin-top: 10px;
@@ -49,15 +67,31 @@ html body{
     display: None;
 }
 
-li{
+li {
     display: inline-block;
-    width: 150px;
-    height: auto;
+    width: 18%;
+    height: 350px;
     background: lightpink;
     margin-bottom: 10px;
     margin-top: 10px;
+    margin-right: 10px;
     padding: 10px;
     border: solid 5px black;
     box-sizing: border-box;
     position: relative;
+}
+
+.pages{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.pages button{
+    width: 4%;
+    height: 20px;
+    background: gray;
+    border: solid 2px black;
+    text-align: center;
+    cursor: pointer;
 }
