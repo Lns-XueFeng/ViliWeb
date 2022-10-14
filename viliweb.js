@@ -56,7 +56,6 @@ window.onload = function(){
                         return;
                     }
                     let sliceData = data.slice(pages, pages+10);
-                    console.log(sliceData)
                     let ul = document.getElementsByTagName("ul")[videoTypeObject[videoType]];
                     if (ul.children.length < 10){
                         console.log(1)
@@ -78,7 +77,6 @@ window.onload = function(){
         let dataPage = this.getAttribute("data-page");
         this.setAttribute("data-page", parseInt(dataPage)+10)
         let nowCount = this.getAttribute("data-page");
-        console.log(nowCount)
         if (document.defaultView.getComputedStyle(cartoon2, null).display === "block"){
             let ul = document.querySelectorAll("ul")[0];
             ul.innerHTML = ""
